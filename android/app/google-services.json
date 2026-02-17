@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "445967960597",
+    "project_id": "packagebreakfast",
+    "storage_bucket": "packagebreakfast.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445967960597:android:a91913d8b8c4c261d51c1c",
+        "android_client_info": {
+          "package_name": "com.mycompany.packagebreakfast"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2DF87T056GuOfatTFcAHrBcQJgXqTZRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
