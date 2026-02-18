@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '/backend/schema/structs/index.dart';
-import '/backend/api_requests/api_manager.dart';
-import 'backend/supabase/supabase.dart';
+
 import 'package:shared_preferences/shared_preferences.dart';
 import 'flutter_flow/flutter_flow_util.dart';
 
@@ -50,7 +49,7 @@ class FFAppState extends ChangeNotifier {
                 try {
                   return CarritoStruct.fromSerializableMap(jsonDecode(x));
                 } catch (e) {
-                  print("Can't decode persisted data type. Error: $e.");
+                  // print("Can't decode persisted data type. Error: $e.");
                   return null;
                 }
               })
@@ -705,8 +704,4 @@ void _safeInit(Function() initializeField) {
   } catch (_) {}
 }
 
-Future _safeInitAsync(Function() initializeField) async {
-  try {
-    await initializeField();
-  } catch (_) {}
-}
+
